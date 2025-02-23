@@ -1,5 +1,7 @@
 # buzzline-05-case
 
+The producer generates JSON messages and sends them to a file and a Kafka topic. The consumer processes these messages and stores insights in a database.
+
 Nearly every streaming analytics system stores processed data somewhere for further analysis, historical reference, or integration with BI tools.
 
 In this example project, we incorporate a relational data store. 
@@ -165,8 +167,6 @@ What files are in the consumers folder?
 - What parts are most interesting to you?
 - What parts are most challenging? 
 
----
-
 ## Later Work Sessions
 When resuming work on this project:
 1. Open the folder in VS Code. 
@@ -174,6 +174,52 @@ When resuming work on this project:
 3. Open a terminal and start the Kafka service. If Windows, remember to start wsl. 
 4. Open a terminal to start the producer. Remember to activate your local project virtual environment (.env).
 5. Open a terminal to start the consumer. Remember to activate your local project virtual environment (.env).
+
+
+## Custom Consumer: Keyword Tracking (`consumer_tesfa.py`)
+
+This project includes a custom consumer, `consumer_tesfa.py`, which tracks keyword mentions to measure topic popularity in real-time. It reads messages from the Kafka topic `buzzline`, counts the occurrences of keywords in the "keyword_mentioned" field, and stores these counts in both SQLite and Redis.
+
+### Insight
+
+By tracking keyword mentions, we gain insights into which topics are trending or generating the most engagement. This information can be valuable for content analysis, trend monitoring, and understanding audience interests.
+
+### Calculation and Storage
+
+For each message consumed, the consumer:
+
+1.  Extracts the keyword from the "keyword_mentioned" field.
+2.  Increments the count for that keyword.
+3.  Stores the keyword and its count in an SQLite database (`buzz.sqlite`).
+4.  Stores the keyword and its count in a Redis database.
+
+This dual storage approach allows for persistent storage in SQLite and real-time updates and retrieval from Redis.
+
+## Running the Project
+
+### Producer
+
+To run the producer, execute the following command:
+
+```
+(`python -m producers.producer_case`)
+
+### consumer 
+
+(`python -m consumers.consumer_tesfa`)
+
+### pip install -r requirements.txt
+pip install redis
+```
+Configure your .env file including REDIS_HOST and REDIS_PORT.
+
+Install and run Redis.
+
+The recommened way is to install redis in WSL (Windows Subsystem for Linux).
+Then start the redis server in the WSL ubuntu terminal.
+
+### Git Commit
+After making changes
 
 ## Save Space
 To save disk space, you can delete the .venv folder when not actively working on this project.
