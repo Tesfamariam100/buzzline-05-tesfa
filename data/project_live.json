@@ -1201,3 +1201,56 @@
 {"message": "I just found Python! It was exciting.", "author": "Alice", "timestamp": "2025-02-23 13:29:05", "category": "tech", "sentiment": 0.25, "keyword_mentioned": "Python", "message_length": 37}
 {"message": "I just saw JavaScript! It was weird.", "author": "Charlie", "timestamp": "2025-02-23 13:29:10", "category": "tech", "sentiment": 0.2, "keyword_mentioned": "JavaScript", "message_length": 36}
 {"message": "I just saw an app! It was boring.", "author": "Alice", "timestamp": "2025-02-23 13:29:15", "category": "other", "sentiment": 0.66, "keyword_mentioned": "other", "message_length": 33}
+{"message": "I just shared travel! It was funny.", "author": "Eve", "timestamp": "2025-02-23 13:29:20", "category": "travel", "sentiment": 0.03, "keyword_mentioned": "travel", "message_length": 35}
+{"message": "I just shared recipe! It was amazing.", "author": "Bob", "timestamp": "2025-02-23 13:29:25", "category": "food", "sentiment": 0.88, "keyword_mentioned": "recipe", "message_length": 37}
+{"message": "I just found recipe! It was boring.", "author": "Eve", "timestamp": "2025-02-23 13:29:30", "category": "food", "sentiment": 0.75, "keyword_mentioned": "recipe", "message_length": 35}
+{"message": "I just found a story! It was funny.", "author": "Bob", "timestamp": "2025-02-23 13:29:35", "category": "other", "sentiment": 0.8, "keyword_mentioned": "other", "message_length": 35}
+{"message": "I just found a story! It was boring.", "author": "Alice", "timestamp": "2025-02-23 13:29:40", "category": "other", "sentiment": 0.87, "keyword_mentioned": "other", "message_length": 36}
+{"message": "I just tried a trick! It was amazing.", "author": "Eve", "timestamp": "2025-02-23 13:29:45", "category": "other", "sentiment": 0.81, "keyword_mentioned": "other", "message_length": 37}
+{"message": "I just loved recipe! It was weird.", "author": "Eve", "timestamp": "2025-02-23 13:29:50", "category": "food", "sentiment": 0.1, "keyword_mentioned": "recipe", "message_length": 34}
+{"message": "I just tried a trick! It was funny.", "author": "Bob", "timestamp": "2025-02-23 13:29:55", "category": "other", "sentiment": 0.3, "keyword_mentioned": "other", "message_length": 35}
+{"message": "I just saw Python! It was funny.", "author": "Charlie", "timestamp": "2025-02-23 13:30:00", "category": "tech", "sentiment": 0.33, "keyword_mentioned": "Python", "message_length": 32}
+{"message": "I just saw Python! It was boring.", "author": "Eve", "timestamp": "2025-02-23 13:30:05", "category": "tech", "sentiment": 0.36, "keyword_mentioned": "Python", "message_length": 33}
+{"message": "I just tried Python! It was exciting.", "author": "Charlie", "timestamp": "2025-02-23 13:30:10", "category": "tech", "sentiment": 0.49, "keyword_mentioned": "Python", "message_length": 37}
+{"message": "I just found a meme! It was boring.", "author": "Alice", "timestamp": "2025-02-23 13:30:15", "category": "humor", "sentiment": 0.98, "keyword_mentioned": "meme", "message_length": 35}
+{"message": "I just tried a trick! It was funny.", "author": "Eve", "timestamp": "2025-02-23 13:30:20", "category": "other", "sentiment": 0.87, "keyword_mentioned": "other", "message_length": 35}
+{"message": "I just found a movie! It was weird.", "author": "Eve", "timestamp": "2025-02-23 13:30:25", "category": "entertainment", "sentiment": 0.37, "keyword_mentioned": "movie", "message_length": 35}
+{"message": "I just tried a meme! It was weird.", "author": "Bob", "timestamp": "2025-02-23 13:30:30", "category": "humor", "sentiment": 0.87, "keyword_mentioned": "meme", "message_length": 34}
+{"message": "I just saw a trick! It was weird.", "author": "Alice", "timestamp": "2025-02-23 13:30:35", "category": "other", "sentiment": 0.99, "keyword_mentioned": "other", "message_length": 33}
+{"message": "I just tried a meme! It was amazing.", "author": "Charlie", "timestamp": "2025-02-23 13:30:40", "category": "humor", "sentiment": 0.01, "keyword_mentioned": "meme", "message_length": 36}
+{"message": "I just saw an app! It was boring.", "author": "Charlie", "timestamp": "2025-02-23 13:30:45", "category": "other", "sentiment": 0.49, "keyword_mentioned": "other", "message_length": 33}
+{"message": "I just shared Python! It was funny.", "author": "Eve", "timestamp": "2025-02-23 13:30:50", "category": "tech", "sentiment": 0.24, "keyword_mentioned": "Python", "message_length": 35}
+{"message": "I just found game! It was boring.", "author": "Eve", "timestamp": "2025-02-23 13:30:55", "category": "gaming", "sentiment": 0.92, "keyword_mentioned": "game", "message_length": 33}
+{"message": "I just found travel! It was amazing.", "author": "Bob", "timestamp": "2025-02-23 13:31:00", "category": "travel", "sentiment": 0.94, "keyword_mentioned": "travel", "message_length": 36}
+{"message": "I just tried recipe! It was amazing.", "author": "Alice", "timestamp": "2025-02-23 13:31:05", "category": "food", "sentiment": 0.37, "keyword_mentioned": "recipe", "message_length": 36}
+{"message": "I just tried a movie! It was boring.", "author": "Charlie", "timestamp": "2025-02-23 13:31:10", "category": "entertainment", "sentiment": 0.96, "keyword_mentioned": "movie", "message_length": 36}
+{"message": "I just found a trick! It was amazing.", "author": "Alice", "timestamp": "2025-02-23 13:31:15", "category": "other", "sentiment": 0.53, "keyword_mentioned": "other", "message_length": 37}
+{"message": "I just loved JavaScript! It was amazing.", "author": "Eve", "timestamp": "2025-02-23 13:31:20", "category": "tech", "sentiment": 0.63, "keyword_mentioned": "JavaScript", "message_length": 40}
+{"message": "I just loved Python! It was exciting.", "author": "Alice", "timestamp": "2025-02-23 13:31:25", "category": "tech", "sentiment": 0.15, "keyword_mentioned": "Python", "message_length": 37}
+{"message": "I just shared an app! It was funny.", "author": "Eve", "timestamp": "2025-02-23 13:31:30", "category": "other", "sentiment": 0.91, "keyword_mentioned": "other", "message_length": 35}
+{"message": "I just found Python! It was exciting.", "author": "Eve", "timestamp": "2025-02-23 13:31:35", "category": "tech", "sentiment": 0.13, "keyword_mentioned": "Python", "message_length": 37}
+{"message": "I just saw recipe! It was amazing.", "author": "Eve", "timestamp": "2025-02-23 13:31:40", "category": "food", "sentiment": 0.14, "keyword_mentioned": "recipe", "message_length": 34}
+{"message": "I just saw a story! It was funny.", "author": "Bob", "timestamp": "2025-02-23 13:31:45", "category": "other", "sentiment": 0.64, "keyword_mentioned": "other", "message_length": 33}
+{"message": "I just shared a trick! It was exciting.", "author": "Alice", "timestamp": "2025-02-23 13:31:50", "category": "other", "sentiment": 0.37, "keyword_mentioned": "other", "message_length": 39}
+{"message": "I just tried a movie! It was amazing.", "author": "Eve", "timestamp": "2025-02-23 13:31:55", "category": "entertainment", "sentiment": 0.18, "keyword_mentioned": "movie", "message_length": 37}
+{"message": "I just tried game! It was amazing.", "author": "Charlie", "timestamp": "2025-02-23 13:32:00", "category": "gaming", "sentiment": 0.71, "keyword_mentioned": "game", "message_length": 34}
+{"message": "I just loved an app! It was funny.", "author": "Bob", "timestamp": "2025-02-23 13:32:05", "category": "other", "sentiment": 0.48, "keyword_mentioned": "other", "message_length": 34}
+{"message": "I just found a trick! It was funny.", "author": "Charlie", "timestamp": "2025-02-23 13:32:10", "category": "other", "sentiment": 0.63, "keyword_mentioned": "other", "message_length": 35}
+{"message": "I just shared a trick! It was boring.", "author": "Alice", "timestamp": "2025-02-23 13:32:15", "category": "other", "sentiment": 0.41, "keyword_mentioned": "other", "message_length": 37}
+{"message": "I just saw travel! It was amazing.", "author": "Eve", "timestamp": "2025-02-23 13:32:20", "category": "travel", "sentiment": 0.66, "keyword_mentioned": "travel", "message_length": 34}
+{"message": "I just found a meme! It was funny.", "author": "Bob", "timestamp": "2025-02-23 13:32:25", "category": "humor", "sentiment": 0.6, "keyword_mentioned": "meme", "message_length": 34}
+{"message": "I just saw recipe! It was funny.", "author": "Bob", "timestamp": "2025-02-23 13:32:30", "category": "food", "sentiment": 0.57, "keyword_mentioned": "recipe", "message_length": 32}
+{"message": "I just loved travel! It was weird.", "author": "Bob", "timestamp": "2025-02-23 13:32:35", "category": "travel", "sentiment": 0.81, "keyword_mentioned": "travel", "message_length": 34}
+{"message": "I just tried travel! It was boring.", "author": "Eve", "timestamp": "2025-02-23 13:32:40", "category": "travel", "sentiment": 0.26, "keyword_mentioned": "travel", "message_length": 35}
+{"message": "I just tried travel! It was boring.", "author": "Charlie", "timestamp": "2025-02-23 13:32:45", "category": "travel", "sentiment": 0.32, "keyword_mentioned": "travel", "message_length": 35}
+{"message": "I just shared JavaScript! It was weird.", "author": "Alice", "timestamp": "2025-02-23 13:32:50", "category": "tech", "sentiment": 0.33, "keyword_mentioned": "JavaScript", "message_length": 39}
+{"message": "I just tried a trick! It was amazing.", "author": "Alice", "timestamp": "2025-02-23 13:32:55", "category": "other", "sentiment": 0.28, "keyword_mentioned": "other", "message_length": 37}
+{"message": "I just tried recipe! It was boring.", "author": "Bob", "timestamp": "2025-02-23 13:33:00", "category": "food", "sentiment": 0.82, "keyword_mentioned": "recipe", "message_length": 35}
+{"message": "I just shared an app! It was exciting.", "author": "Bob", "timestamp": "2025-02-23 13:33:05", "category": "other", "sentiment": 0.25, "keyword_mentioned": "other", "message_length": 38}
+{"message": "I just shared Python! It was weird.", "author": "Charlie", "timestamp": "2025-02-23 13:33:10", "category": "tech", "sentiment": 0.85, "keyword_mentioned": "Python", "message_length": 35}
+{"message": "I just saw a trick! It was boring.", "author": "Alice", "timestamp": "2025-02-23 13:33:15", "category": "other", "sentiment": 0.8, "keyword_mentioned": "other", "message_length": 34}
+{"message": "I just tried travel! It was amazing.", "author": "Charlie", "timestamp": "2025-02-23 13:33:20", "category": "travel", "sentiment": 0.73, "keyword_mentioned": "travel", "message_length": 36}
+{"message": "I just tried travel! It was weird.", "author": "Bob", "timestamp": "2025-02-23 13:33:25", "category": "travel", "sentiment": 0.95, "keyword_mentioned": "travel", "message_length": 34}
+{"message": "I just tried a movie! It was weird.", "author": "Bob", "timestamp": "2025-02-23 13:33:31", "category": "entertainment", "sentiment": 0.22, "keyword_mentioned": "movie", "message_length": 35}
+{"message": "I just found Python! It was amazing.", "author": "Charlie", "timestamp": "2025-02-23 13:33:36", "category": "tech", "sentiment": 0.46, "keyword_mentioned": "Python", "message_length": 36}
+{"message": "I just found travel! It was exciting.", "author": "Bob", "timestamp": "2025-02-23 13:33:41", "category": "travel", "sentiment": 0.45, "keyword_mentioned": "travel", "message_length": 37}
