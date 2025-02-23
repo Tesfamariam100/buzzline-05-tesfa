@@ -29,6 +29,18 @@ import pathlib
 import sys
 import time
 
+# Import packages from Python Standard Library
+import os
+import json  # handle JSON parsing
+
+# Use a deque ("deck") - a double-ended queue data structure
+# A deque is a good way to monitor a certain number of "most recent" messages
+# A deque is a great data structure for time windows (e.g. the last 5 messages)
+from collections import deque
+
+# Import external packages
+from dotenv import load_dotenv
+
 # import from local modules
 import utils.utils_config as config
 from utils.utils_logger import logger
