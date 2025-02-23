@@ -6,7 +6,7 @@ This script provides the configuration functions for the project.
 
 It centralizes the configuration management 
 by loading environment variables from .env in the root project folder
- and constructing file paths using pathlib. 
+and constructing file paths using pathlib. 
 
 If you rename any variables in .env, remember to:
 - recopy .env to .env.example (and hide the secrets)
@@ -31,7 +31,17 @@ from .utils_logger import logger
 # Load Environment Variables
 #####################################
 
+
 load_dotenv()
+
+def get_redis_host():
+    """Get the Redis host from the environment variables."""
+    return os.getenv("REDIS_HOST", "localhost")  # Default to localhost
+
+def get_redis_port():
+    """Get the Redis port from the environment variables."""
+    return int(os.getenv("REDIS_PORT", "6379"))  # Default to 6379
+
 
 #####################################
 # Getter Functions for .env Variables
