@@ -31,6 +31,12 @@ import sys
 
 # import external modules
 from kafka import KafkaConsumer
+import sys
+import os
+
+# Add project root to system path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 
 # import from local modules
 import utils.utils_config as config
